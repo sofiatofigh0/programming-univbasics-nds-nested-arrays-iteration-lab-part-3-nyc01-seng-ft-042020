@@ -4,7 +4,8 @@ def join_nested_strings(aoa)
  aoa.flatten!
   while counter1 < aoa.length do
       if aoa[counter1].class == String
-        phrase=aoa[counter1].join(' ')
+        phrase= aoa[counter1].class == String
+        phrase.join(' ')
       new_array << phrase  
      counter1=counter1+1 
      end  
