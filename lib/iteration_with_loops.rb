@@ -9,5 +9,5 @@ def join_nested_strings(aoa)
      end
      counter1=counter1+1 
     end  
- new_array  
+ new_array.join(' ')
 end  
