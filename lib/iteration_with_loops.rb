@@ -6,8 +6,8 @@ def join_nested_strings(aoa)
       if aoa[counter1].class == String
         phrase =aoa[counter1]
       new_array << phrase  
+     end
      counter1=counter1+1 
-     end  
     end  
  new_array  
 end  
